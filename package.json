@@ -1,0 +1,27 @@
+{
+  "name": "node_bookstore_mocha",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "mocha --timeout 11000 --exit",
+    "coverage": "nyc --reporter=html --reporter=text npm test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "config": "^3.3.12",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "chai-http": "^5.0.0",
+    "mocha": "^10.7.0",
+    "nyc": "^17.0.0",
+    "supertest": "^7.0.0"
+  }
+}
